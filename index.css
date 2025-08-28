@@ -1,0 +1,147 @@
+:root{
+    --primary :#800080;
+
+}
+*{
+    margin:0;
+    padding: 0;
+}
+body{
+    overflow-x: hidden;
+}
+.navicon{
+    height: 90px;
+    width: 130px;
+}
+
+.main{
+    height: 100vh;
+    background-image: url("images/bgimage2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center ;
+    background-attachment: fixed;
+   
+}
+#bgdim{
+    background-color: rgba(0, 0, 0, 0.162);
+    height: 100vh;
+}
+.maincontent{
+   padding-top: 15%;
+    padding-left: 7%;
+}
+.main_note{
+    font-size: 40px;
+}
+.shopname{
+    font-size:  120px;
+}
+
+@media(max-width:600px){
+    .nav-item i{
+        display: none;
+    }
+    .shopname{
+        font-size: 80px;
+    }
+   
+    
+}
+@media(max-width:320px){
+    .shopname{
+        font-size: 60px;
+    }
+}
+.products{
+    margin-top:100px;
+}
+.sectionheadings{
+    margin-bottom: 50px;
+}
+.about{
+    margin-top: 150px;
+}
+.imgborder{
+    border:solid purple 4px;
+    height: 490px;
+    width: 100%;
+}
+.aboutimg{
+    height: 600px;
+    width: 103%;
+    padding-left: 8%;
+    padding-top: 5%;
+}
+.aboutheading{
+    color: rgb(144, 3, 144);
+}
+.headline{
+    margin: 40px 0;
+    height: 5px;
+    width: 25%;
+    background-color: #800080;
+}
+.text-about{
+    margin-top: 80px;
+}
+.aboutcontent{
+
+    text-align: justify;
+    /* padding: 10px 10%; */
+    line-height: 30px;
+    font-weight: 400;
+}
+.gallerysection{
+    margin: 100px 0;
+}
+
+.sideimg1{
+    height: 263px;
+}
+
+.galleryimages{
+    position: relative;
+}
+.imgnames{
+    position: absolute;
+    bottom: 0px;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50px;
+    width: 50%;
+}
+.imgnames h3{
+font-size: 18px;
+}
+.userimage{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+.cardcontent{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.testimonialnote{
+    margin-left: 135px;
+    margin-bottom: 40px;
+}
+.footersection{
+    height: 400px;
+    background-color: #800080;
+    color: white;
+}
+.footericons{
+    margin-top: 20px;
+    font-size: 30px;
+}
+.footericons i:hover{
+    font-size: 35px;
+}
+
